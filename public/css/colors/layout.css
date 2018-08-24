@@ -1,0 +1,97 @@
+html,
+body {
+  overflow: hidden;
+}
+
+html,
+body,
+.wrapper,
+.flex-wrapper {
+  height: 100%;
+}
+
+main {
+  overflow-x: auto;
+  height: 100%;
+}
+
+.flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.green {
+  color: #41B883;
+}
+
+.main-nav {
+  background-color: #35495E;
+  color: #FFFFFF;
+  -ms-flex-preferred-size: 260px;
+      flex-basis: 260px;
+  padding: 1.5rem;
+}
+
+.main-nav h1.logo {
+  font-family: 'Fira Sans', sans-serif;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.main-nav a {
+  color: #FFFFFF;
+}
+
+.page-nav {
+  background-color: #F3F3F3;
+  padding: 0.75rem;
+}
+
+.page-nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.page-nav ul li {
+  padding: 0 0.25rem;
+}
+
+main {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  padding: 1.5rem;
+}
+
+ul.table-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+}
+
+ul.table-actions li {
+  margin: 0 0.25rem;
+}
+
+.sortable .handle {
+  cursor: pointer;
+  color: #999;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0;
+}
+
